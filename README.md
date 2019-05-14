@@ -55,3 +55,4 @@ Attaque de sites Web:
 
 Éditeur hexadécimal: 
 * Bless https://github.com/bwrsandman/Bless
+* wxhexeditor http://www.wxhexeditor.org/
