@@ -68,3 +68,4 @@ Attaque de sites Web:
 Éditeur hexadécimal: 
 * Linux : Bless https://github.com/bwrsandman/Bless
 * Windows : Flex Hex http://www.flexhex.com/download/
+* Linux/Mac/Windows : Wxhexeditor http://www.wxhexeditor.org/
