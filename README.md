@@ -16,6 +16,7 @@ Encodage/décodage/analyse de hashs:
 * https://crackstation.net/
 
 Prise de notes : 
+* Typora (markdown FTW)
 * CherryTree ( https://www.giuspen.com/cherrytree/ )
 
 Débogueurs: 
@@ -34,7 +35,8 @@ Listes d'outils organisées:
 
 Reformatage de code automatique : 
 * https://beautifier.io/
-* https://gchq.github.io/CyberChef/, 
+* https://gchq.github.io/CyberChef/
+* http://deobfuscatejavascript.com/
 
 Tests d'expressions régulières: 
 * https://regex101.com/
@@ -60,12 +62,18 @@ Processeur de signaux radio:
 Liste de mots de passe par défaut de routeurs: 
 * https://192-168-1-1ip.mobi/default-router-passwords-list/
 
-Attaque de sites Web: 
+Web: 
 * ZAP/Burp
-* Gobuster
-* https://jwt.io
+* Amass (smart URL brute-forcer)
+* Gobuster (dumb URL brute-forcer)
+* JSON Web Tokens https://jwt.io
+* Punycode to text https://www.punycoder.com/
 
 Éditeur hexadécimal: 
 * Linux : Bless https://github.com/bwrsandman/Bless
 * Windows : Flex Hex http://www.flexhex.com/download/
 * Linux/Mac/Windows : Wxhexeditor http://www.wxhexeditor.org/
+
+Offline viewer pour PST (mailbox)
+* https://goldfynch.com/pst-viewer
+
