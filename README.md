@@ -14,6 +14,7 @@ Encodage/décodage/analyse de hashs:
 * https://sha1.gromweb.com/
 * https://hashkiller.co.uk/Cracker/MD5
 * https://crackstation.net/
+* https://zxing.org/w/decode
 
 Prise de notes : 
 * CherryTree ( https://www.giuspen.com/cherrytree/ )
