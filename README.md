@@ -74,7 +74,9 @@ Web:
 * Punycode to text https://www.punycoder.com/
 
 Éditeur hexadécimal: 
-* Linux : Bless https://github.com/bwrsandman/Bless
+* Linux : 
+** Bless (Mono) https://github.com/bwrsandman/Bless
+** 01 Editor (Commercial) https://www.sweetscape.com/010editor/
 * Windows : Flex Hex http://www.flexhex.com/download/
 * Linux/Mac/Windows : Wxhexeditor http://www.wxhexeditor.org/
 
