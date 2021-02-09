@@ -51,7 +51,8 @@ Outils pour l'OSINT:
 * https://github.com/jivoi/awesome-osint 
 
 Analyseur de fichiers sons: 
-* Audacity
+* Audacity (https://www.audacityteam.org/download/)
+* Sonic Visualiser (https://www.sonicvisualiser.org/download.html)
 
 Outils de forensics sur image: 
 * https://29a.ch/photo-forensics/
