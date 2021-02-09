@@ -75,8 +75,8 @@ Web:
 
 Éditeur hexadécimal: 
 * Linux : 
- * Bless (Mono) https://github.com/bwrsandman/Bless
- * 01 Editor (Commercial) https://www.sweetscape.com/010editor/
+	* Bless (Mono) https://github.com/bwrsandman/Bless
+	* 01 Editor (Commercial) https://www.sweetscape.com/010editor/
 * Windows : Flex Hex http://www.flexhex.com/download/
 * Linux/Mac/Windows : Wxhexeditor http://www.wxhexeditor.org/
 
