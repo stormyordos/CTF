@@ -33,6 +33,8 @@ Listes d'outils organisées:
 * https://github.com/apsdehal/awesome-ctf
 * https://github.com/zardus/ctf-tools
 
+Résolveur d'équations complexes:
+* https://github.com/Z3Prover/z3
 
 Reformatage de code automatique : 
 * https://beautifier.io/
