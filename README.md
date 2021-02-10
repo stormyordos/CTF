@@ -14,6 +14,9 @@ Encoding/Decoding/Hash Analysis:
 * Hashkiller https://hashkiller.co.uk/Cracker/MD5
 * Crackstation https://crackstation.net/
 * Zxing https://zxing.org/w/decode
+* XORTool https://github.com/hellman/xortool
+* HashExtender https://github.com/iagox86/hash_extender
+* QuipQuip https://quipqiup.com/
 
 Organizing Notes : 
 * Typora (markdown editor https://typora.io/)
@@ -80,7 +83,12 @@ Photo Editor:
 * Gimp https://www.gimp.org/
 
 ZIP File Cracker:
-* https://github.com/hyc/fcrackzip
+* FCrackZIP https://github.com/hyc/fcrackzip
+* PKCrack https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack.html
+
+Bruteforcers:
+* Hydra (online bruteforce) https://tools.kali.org/password-attacks/hydra
+* Hashcat (offline bruteforce) https://hashcat.net/hashcat/
 
 Radio Signals Processing: 
 * FLDigi https://sourceforge.net/projects/fldigi
