@@ -110,3 +110,8 @@ Hexadecimal Editor:
 Offline viewer for PST files (mailboxes):
 * https://goldfynch.com/pst-viewer
 
+Office Documents Analysis:
+* OLEDump (Office Macro decompiler): https://blog.didierstevens.com/programs/oledump-py/
+
+
+
