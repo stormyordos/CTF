@@ -21,7 +21,7 @@ Organizing Notes :
 
 Debuggers: 
 * OllyDbg : http://www.ollydbg.de/version2.html
-* Immunity
+* Immunity : https://www.immunityinc.com/products/debugger/
 * Radare2 : https://rada.re/r/
 	* Cutter : https://cutter.re/
 * x64Dbg : https://x64dbg.com/#start
@@ -90,10 +90,13 @@ Radio Signals Processing:
 List of default passwords for routers: 
 * https://192-168-1-1ip.mobi/default-router-passwords-list/
 
-Web: 
-* ZAP/Burp
-* Amass (smart URL brute-forcer)
-* Gobuster (dumb URL brute-forcer)
+Web Attack Proxies:
+* OWASP ZAP https://www.zaproxy.org/download/
+* Burp Suite Community https://portswigger.net/burp/communitydownload
+
+Web Misc Tools:
+* OWASP Amass (Domain name brute-forcer https://github.com/OWASP/Amass)
+* Gobuster (URL brute-forcer https://github.com/OJ/gobuster)
 * JSON Web Tokens https://jwt.io
 * Punycode to text https://www.punycoder.com/
 
