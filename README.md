@@ -111,7 +111,9 @@ Offline viewer for PST files (mailboxes):
 * https://goldfynch.com/pst-viewer
 
 Office Documents Analysis:
-* OLEDump (Office Macro decompiler): https://blog.didierstevens.com/programs/oledump-py/
+* OLEDump (Office Macro decompiler): 
+	* https://github.com/DidierStevens/DidierStevensSuite/blob/master/oledump.py
+	* https://blog.didierstevens.com/programs/oledump-py/
 
 
 
