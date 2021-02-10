@@ -33,6 +33,12 @@ Debuggers:
 Decompiler:
 * Ghidra : https://ghidra-sre.org/
 * IDA Freeware : https://www.hex-rays.com/products/ida/support/download_freeware/
+* Boomerang (x86/SPARC/PowerPC/ST20 to C) : https://github.com/BoomerangDecompiler/boomerang
+* APKTool (Android) : http://ibotpeaches.github.io/Apktool/
+* Plasma (x86/MIPS) : https://github.com/joelpx/plasma
+* JD-GUI (Java) : https://github.com/java-decompiler/jd-gui
+* DotPeek (.NET EXE or DLL) : https://www.jetbrains.com/decompiler/download/#section=web-installer
+* SWF/Actionscript : https://github.com/CyberShadow/RABCDAsm
 
 Various Tool lists: 
 * https://github.com/onlurking/awesome-infosec#capture-the-flag, 
@@ -44,10 +50,14 @@ Various Tool lists:
 Complex equations solver:
 * https://github.com/Z3Prover/z3
 
-Automatic code reformatter : 
+Automatic code reformatters : 
 * https://beautifier.io/
 * https://gchq.github.io/CyberChef/
+
+Javascript Deobfuscators:
 * http://deobfuscatejavascript.com/
+* Revelo : http://www.kahusecurity.com/posts/revelo_javascript_deobfuscator.html
+* Detox : http://relentless-coding.org/projects/jsdetox/install
 
 Regular Expressions Testing: 
 * https://regex101.com/
@@ -58,7 +68,7 @@ Container/Shell Evasion Techniques:
 OSINT Tools: 
 * https://github.com/jivoi/awesome-osint 
 
-Sound Files Analysers: 
+Sound Files Analyzers: 
 * Audacity (https://www.audacityteam.org/download/)
 * Sonic Visualiser (https://www.sonicvisualiser.org/download.html)
 
@@ -75,6 +85,8 @@ Steganography:
 * ZSteg: https://github.com/zed-0xff/zsteg
 * WavSteg: https://github.com/ragibson/Steganography#WavSteg
 * StegCracker: https://github.com/Paradoxis/StegCracker
+* Snow: https://sbmlabs.com/notes/snow_whitespace_steganography_tool/
+* PNGCheck: http://www.libpng.org/pub/png/apps/pngcheck.html
 * DCode.FR https://www.dcode.fr/
 * Unicode Steganography https://www.irongeek.com/i.php?page=security/unicode-steganography-homoglyph-encoder
 * NPiet Online https://www.bertnase.de/npiet/npiet-execute.php
@@ -82,9 +94,15 @@ Steganography:
 Photo Editor: 
 * Gimp https://www.gimp.org/
 
+PCAP Analyzer:
+* Wireshark: https://www.wireshark.org/
+
 ZIP File Cracker:
 * FCrackZIP https://github.com/hyc/fcrackzip
 * PKCrack https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack.html
+
+Port Scanner:
+* NMap: https://nmap.org/
 
 Bruteforcers:
 * Hydra (online bruteforce) https://tools.kali.org/password-attacks/hydra
