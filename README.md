@@ -1,70 +1,93 @@
 # CTF Tools
 
 
-Distributions de sécurité: 
-* Kali
-* Blackarch
-
+Security distributions: 
+* Kali https://www.kali.org/
+* Blackarch https://blackarch.org/
   
-Encodage/décodage/analyse de hashs: 
-* https://gchq.github.io/CyberChef/, 
-* https://kt.gy/tools.html#conv/, 
-* https://www.dcode.fr/tools-list, 
-* http://theblob.org/rot.cgi, 
-* https://sha1.gromweb.com/
-* https://hashkiller.co.uk/Cracker/MD5
-* https://crackstation.net/
-* https://zxing.org/w/decode
+Encoding/Decoding/Hash Analysis: 
+* CyberChef https://gchq.github.io/CyberChef/, 
+* KT.GY https://kt.gy/tools.html#conv/, 
+* DCODE.FR https://www.dcode.fr/tools-list, 
+* ROT 13 http://theblob.org/rot.cgi, 
+* Hash lookup https://sha1.gromweb.com/
+* Hashkiller https://hashkiller.co.uk/Cracker/MD5
+* Crackstation https://crackstation.net/
+* Zxing https://zxing.org/w/decode
 
-Prise de notes : 
-* Typora (markdown FTW)
+Organizing Notes : 
+* Typora (markdown editor https://typora.io/)
 * CherryTree ( https://www.giuspen.com/cherrytree/ )
 
-Débogueurs: 
+Debuggers: 
 * OllyDbg : http://www.ollydbg.de/version2.html
 * Immunity
 * Radare2 : https://rada.re/r/
+	* Cutter : https://cutter.re/
 * x64Dbg : https://x64dbg.com/#start
+* IDA Freeware : https://www.hex-rays.com/products/ida/support/download_freeware/
 
-Listes d'outils organisées: 
+Decompiler:
+* Ghidra : https://ghidra-sre.org/
+* IDA Freeware : https://www.hex-rays.com/products/ida/support/download_freeware/
+
+Various Tool lists: 
 * https://github.com/onlurking/awesome-infosec#capture-the-flag, 
 * https://github.com/danielmiessler/SecLists/tree/master/Passwords, 
 * https://bugbountyforum.com/tools/mobile-testing/
 * https://github.com/apsdehal/awesome-ctf
 * https://github.com/zardus/ctf-tools
 
-Résolveur d'équations complexes:
+Complex equations solver:
 * https://github.com/Z3Prover/z3
 
-Reformatage de code automatique : 
+Automatic code reformatter : 
 * https://beautifier.io/
 * https://gchq.github.io/CyberChef/
 * http://deobfuscatejavascript.com/
 
-Tests d'expressions régulières: 
+Regular Expressions Testing: 
 * https://regex101.com/
 
-Techniques d'évasion de shell/conteneur: 
+Container/Shell Evasion Techniques: 
 * https://gtfobins.github.io/
-* https://lolbas-project.github.io/#
 
-Outils pour l'OSINT: 
+OSINT Tools: 
 * https://github.com/jivoi/awesome-osint 
 
-Analyseur de fichiers sons: 
+Sound Files Analysers: 
 * Audacity (https://www.audacityteam.org/download/)
 * Sonic Visualiser (https://www.sonicvisualiser.org/download.html)
 
-Outils de forensics sur image: 
-* https://29a.ch/photo-forensics/
-* Gimp ...
+File Forensics Tools: 
+* Forensically: https://29a.ch/photo-forensics/
+* Foremost: https://github.com/korczis/foremost
+* Binwalk: https://github.com/ReFirmLabs/binwalk
+* Exiftool: https://www.sno.phy.queensu.ca/~phil/exiftool/
+* Strings
 
-Processeur de signaux radio: 
-* https://sourceforge.net/projects/fldigi
-* https://aresvalley.com/
-* https://www.sigidwiki.com/wiki/Signal_Identification_Guide
+Steganography:
+* StegSolve: https://github.com/zardus/ctf-tools/blob/master/stegsolve/install
+* StegHide: https://github.com/StefanoDeVuono/steghide
+* ZSteg: https://github.com/zed-0xff/zsteg
+* WavSteg: https://github.com/ragibson/Steganography#WavSteg
+* StegCracker: https://github.com/Paradoxis/StegCracker
+* DCode.FR https://www.dcode.fr/
+* Unicode Steganography https://www.irongeek.com/i.php?page=security/unicode-steganography-homoglyph-encoder
+* NPiet Online https://www.bertnase.de/npiet/npiet-execute.php
 
-Liste de mots de passe par défaut de routeurs: 
+Photo Editor: 
+* Gimp https://www.gimp.org/
+
+ZIP File Cracker:
+* https://github.com/hyc/fcrackzip
+
+Radio Signals Processing: 
+* FLDigi https://sourceforge.net/projects/fldigi
+* Ares Valley https://aresvalley.com/
+* Signal Identification Guide Wiki https://www.sigidwiki.com/wiki/Signal_Identification_Guide
+
+List of default passwords for routers: 
 * https://192-168-1-1ip.mobi/default-router-passwords-list/
 
 Web: 
@@ -74,13 +97,13 @@ Web:
 * JSON Web Tokens https://jwt.io
 * Punycode to text https://www.punycoder.com/
 
-Éditeur hexadécimal: 
+Hexadecimal Editor: 
 * Linux : 
 	* Bless (Mono) https://github.com/bwrsandman/Bless
 	* 01 Editor (Commercial) https://www.sweetscape.com/010editor/
 * Windows : Flex Hex http://www.flexhex.com/download/
 * Linux/Mac/Windows : Wxhexeditor http://www.wxhexeditor.org/
 
-Offline viewer pour PST (mailbox)
+Offline viewer for PST files (mailboxes):
 * https://goldfynch.com/pst-viewer
 
