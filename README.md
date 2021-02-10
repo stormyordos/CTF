@@ -4,6 +4,7 @@
 Security distributions: 
 * Kali https://www.kali.org/
 * Blackarch https://blackarch.org/
+* Parrot OS https://www.parrotsec.org/
   
 Encoding/Decoding/Hash Analysis: 
 * CyberChef https://gchq.github.io/CyberChef/, 
