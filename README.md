@@ -46,6 +46,7 @@ Tests d'expressions régulières:
 
 Techniques d'évasion de shell/conteneur: 
 * https://gtfobins.github.io/
+* https://lolbas-project.github.io/#
 
 Outils pour l'OSINT: 
 * https://github.com/jivoi/awesome-osint 
