@@ -1,6 +1,5 @@
 # CTF Tools
 
-=================
 <!--ts-->
 * [CTF Tools](#ctf-tools)
     * [Security distributions](#security-distributions)
