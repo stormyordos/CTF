@@ -1,5 +1,4 @@
 # CTF Tools
-
 * [CTF Tools](#ctf-tools)
       * [Security distributions:](#security-distributions)
       * [Encoding/Decoding/Hash Analysis:](#encodingdecodinghash-analysis)
