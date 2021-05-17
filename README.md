@@ -1,6 +1,5 @@
 # CTF Tools
 
-Table of contents
 =================
 <!--ts-->
 * [CTF Tools](#ctf-tools)
