@@ -135,5 +135,5 @@ def decrypt(offering):
 
 Which gives us, when calling it with the encrypted flag:
 
-![1637621078726](/home/stormy/.config/Typora/typora-user-images/1637621078726.png)
+![img](https://cdn.discordapp.com/attachments/911345800116838420/912485215379795978/unknown.png)
 
