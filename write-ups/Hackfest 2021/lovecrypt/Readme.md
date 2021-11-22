@@ -5,7 +5,7 @@
 * [Lovecrypt - Offering](#Lovecrypt---Offering)
     * [Challenge](#Challenge)
     * [Website](#Website)
-    * [Creating a "decrypt" function](#Creating-a-"decrypt"-function)
+    * [Creating a "decrypt" function](#creating-a-decrypt-function)
     	<!--te-->
 
 ### Challenge
@@ -29,53 +29,55 @@ Although most of what is said on the webpage is fluff, two important information
 
 * Using Cyberchef to decode the function (it's a ROT-13), we find its true purpose is to encrypt an "offering":
 
-	``#!/usr/bin/env python3
+~~~python
+#!/usr/bin/env python3
 
-	Ph’nglui mglw’nafh Cthulhu R’lyeh wgah’nagl fhtagn.
+Ph’nglui mglw’nafh Cthulhu R’lyeh wgah’nagl fhtagn.
 
-	--  HANDS OFF IF YOU'RE NOT A CULTIST --
+--  HANDS OFF IF YOU'RE NOT A CULTIST --
 
-	import argparse
-	import base64
+import argparse
+import base64
 
-	def main():
-	        parser =  argparse.ArgumentParser()
-	        parser.add_argument("offering", help="Present your offering to the Old Ones, cultist!")
-	        args = parser.parse_args()
-	        offering = args.offering
+def main():
+	parser =  argparse.ArgumentParser()
+	parser.add_argument("offering", help="Present your offering to the Old Ones, cultist!")
+	args = parser.parse_args()
+	offering = args.offering
 
-	        print("\nIä! Shub-Niggurath!\n")
-	        print("---------------------------------")
-	        encrypt(offering)
-	        print("---------------------------------")
-	        print("\nCthulhu fhtagn! ^(;,;)^\n")
+	print("\nIä! Shub-Niggurath!\n")
+	print("---------------------------------")
+	encrypt(offering)
+	print("---------------------------------")
+	print("\nCthulhu fhtagn! ^(;,;)^\n")
 
-	def encrypt(payload):
-	        cipher = ""
-	        secret = "nyarlathotep"
-	        key = "r'lyeh" * 13
-	        key = key[:len(payload)]
-	        forbidden_chars = []
-	        for letter in secret:
-	                if letter not in forbidden_chars:
-	                        forbidden_chars.append(letter)
-	        for letter in payload:
-	                if letter in forbidden_chars:
-	                        char_code = ord(letter) - 13
-	                        letter = chr(char_code)
-	                char_code = ord(letter) << 2
-	                letter = chr(char_code)
-	                cipher += letter
-	        cipher = cipher[::-1]
-	        xored_cipher = ''.join(chr(ord(x) ^ ord(y)) for x,y in zip(cipher,key))
-	        cipher = (base64.b64encode(xored_cipher.encode('utf-8'))).decode('utf-8')
-	        print("Here's your encrypted offering :\n")
-	        print(cipher)
-
-	if name == "main":
-	        main()
-
+def encrypt(payload):
+	cipher = ""
+	secret = "nyarlathotep"
+	key = "r'lyeh" * 13
+	key = key[:len(payload)]
+	forbidden_chars = []
+	for letter in secret:
+		if letter not in forbidden_chars:
+	    	forbidden_chars.append(letter)
 	
+	for letter in payload:
+		if letter in forbidden_chars:
+	    	char_code = ord(letter) - 13
+	        letter = chr(char_code)
+		char_code = ord(letter) << 2
+		letter = chr(char_code)
+	    cipher += letter
+	cipher = cipher[::-1]
+	xored_cipher = ''.join(chr(ord(x) ^ ord(y)) for x,y in zip(cipher,key))
+	cipher = (base64.b64encode(xored_cipher.encode('utf-8'))).decode('utf-8')
+	print("Here's your encrypted offering :\n")
+	print(cipher)
+
+if name == "main":
+	main()
+~~~
+
 
 ### Creating a "decrypt" function
 * If we try describing the "encrypt" at an algorithmic level, we may end up with this:
@@ -99,37 +101,36 @@ Although most of what is said on the webpage is fluff, two important information
 
 After a bit of tinkering, I came up with this crude python function:
 
-``
 
+~~~python
 def decrypt(offering):
-       cleartext = ""
-       secret = "nyarlathotep"
-       key = "r'lyeh" * 13
-       key = key[:len(offering)]
-       
-
-       temp_chars = []
-       forbidden_chars = []
-       for letter in secret:
-               if letter not in temp_chars:
-                       temp_chars.append(letter)
-                       forbidden_chars.append(chr(ord(letter)-13))
+    cleartext = ""
+    secret = "nyarlathotep"
+    key = "r'lyeh" * 13
+    key = key[:len(offering)]
+    temp_chars = []
+    forbidden_chars = []
+    for letter in secret:
+    if letter not in temp_chars:
+        temp_chars.append(letter)
+        forbidden_chars.append(chr(ord(letter)-13))    
     
-       cipher = base64.b64decode(offering.encode('utf-8')).decode('utf-8')
-       xored_cipher = ''.join(chr(ord(x) ^ ord(y)) for x,y in zip(cipher,key))
-       cipher = xored_cipher[::-1] # reverses.
-       
-       for letter in cipher:
-               char_code = ord(letter) >> 2
-               letter = chr(char_code)
-               if letter in forbidden_chars:
-                       char_code = ord(letter) + 13
-                       letter = chr(char_code)
-               cleartext += letter
-    
-       print("Here's your decrypted offering :\n")
-       print(cleartext)
 
+    cipher = base64.b64decode(offering.encode('utf-8')).decode('utf-8')
+    xored_cipher = ''.join(chr(ord(x) ^ ord(y)) for x,y in zip(cipher,key))
+    cipher = xored_cipher[::-1] # reverses.
+       
+    for letter in cipher:
+        char_code = ord(letter) >> 2
+        letter = chr(char_code)
+        if letter in forbidden_chars:
+            char_code = ord(letter) + 13
+            letter = chr(char_code)
+        cleartext += letter
+    
+    print("Here's your decrypted offering :\n")
+    print(cleartext)
+~~~
 
 
 Which gives us, when calling it with the encrypted flag:
