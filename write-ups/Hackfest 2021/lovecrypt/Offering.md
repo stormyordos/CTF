@@ -80,7 +80,7 @@ if name == "main":
 
 
 ### Creating a "decrypt" function
-* If we try describing the "encrypt" at an algorithmic level, we may end up with this:
+* If we try describing the "encrypt" function at an algorithmic level, we may end up with this:
 	* all characters of the "nyarlathotep" string are forbidden characters
 	* all forbidden letters in the cleartext are replaced by the same letter minus 13 in the ASCII code
 	* all letters from the cleartext are multiplied by 4 ( << 2, bitwise left shift by 2 positions)
