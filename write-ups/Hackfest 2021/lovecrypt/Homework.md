@@ -2,10 +2,12 @@
 
 <!--ts-->
 
-- [Lovecrypt - Offering](#Lovecrypt---Offering)
+- [Lovecrypt - Homework](#Lovecrypt---Homework)
 	- [Challenge](#Challenge)
-	- [Website](#Website)
-	- [Creating a "decrypt" function](#creating-a-decrypt-function)
+	- [At the beginning was the Website](#at-the-beginning-was-the-website)
+	- [Then there was Regex](#then-there-was-regex)
+	- [And the Web saw that it was good](#and-the-web-saw-that-it-was-good)
+	- [Putting it all together](#putting-it-all-together)
 		<!--te-->
 
 ### Challenge
