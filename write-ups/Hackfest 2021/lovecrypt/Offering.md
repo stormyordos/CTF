@@ -19,7 +19,7 @@ Opening the link provided in the challenge description brings us to a Lovecraft-
 
 ![img](https://cdn.discordapp.com/attachments/911345800116838420/911523796807192576/unknown.png)
 
-Although most of what is said on the webpage is fluff, two important informations are listed here:
+Although most of what is said on the webpage is fluff, two important pieces of information are listed here:
 
 * the encrypted form of the flag to enter (HF-{wpLDu8K0wq3HocSIx4bFi8agx53HvcKoxJLGi8eIxIXCpce0x7rFm8KsxKnCpcakx57Gr8ekxIXCtcKkwrrDow==})
 
